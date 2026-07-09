@@ -1,3 +1,15 @@
+# Stirling Motor Measurement System
+
+This project was developed during a practical laboratory course at Heinrich Heine University Düsseldorf. The aim was to measure and analyse the performance of a Stirling motor using sensor-based data acquisition.
+
+The system combines pressure measurement with an LED-photodiode setup to determine the rotational speed and estimate the chamber volume of the Stirling motor. The Arduino code was used for automated sensor data acquisition and signal processing.
+
+Main topics:
+- Arduino-based measurement system
+- Pressure sensor data acquisition
+- LED-photodiode setup for rotational speed measurement
+- Calculation of chamber volume and motor performance
+- Error analysis and documentation
 
 Das Ziel des Versuchs ist den Kreisprozess der Stirling Maschine zu beschreiben und unter Verwendung der erhobenen Messdaten ihren Wirkungsgrad zu bestimmen. Bezüglich dessen wurden über verschiedene Verfahren die Variablen des Idealen Gasgesetzes P (Druck), V (Volumen) und n (Stoffmenge) sowohl für die „Obere-“ als auch für die „Untere-Kammer“ gemessen oder rechnerisch bestimmt. Der Raum des Motors ist durch eine bewegende Platte getrennt, was die Betrachtung als zwei Kammern ermöglicht. Über die Integration der Druckdifferenz mal der Fläche der auf und ab gehenden Mittelplatte, welche die beiden Kammern trennt, lässt sich die Leistung und der Wirkungsgrad der Maschine berechnen. Im Folgenden wird geschildert, in welchen Schritten die Daten erhoben wurden und wie auf die Leistung geschlossen wurde. 
   
